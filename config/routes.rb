@@ -4,6 +4,10 @@ Rails.application.routes.draw do
 
   get 'about', to: 'pages#about'
   
+  #Prueba de link
+  get 'new', to: 'articles#new'
+  
+  
   
   resources :articles
   
